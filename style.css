@@ -1,0 +1,90 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+
+/*==============================================
+	Navigation
+================================================*/
+/* .navbar-brand img {
+	height: 3rem;
+	position: absolute;
+	top: 18px;	
+} */
+
+/* .navbar-home {
+	background-color: lightblue;
+	border-radius: 0px;
+	
+} */
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    color: white;
+    margin: 0px;
+    padding: 10px; 
+	justify-content: center;  
+}
+
+.navbar-nav li{
+	left: 200px;
+	padding-left: 100px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+	
+}
+
+ul li:hover {
+		color: grey
+}
+
+/*==============================================
+	End of Navigation
+================================================*/
+
+/* Main Contain */
+.intro_text{
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+	background-color: grey;
+	text-align: center;
+	padding: 20px 10px 90px;
+	color: white;
+	margin-top: 200px;
+
+}
+
+footer h4, p {
+	font-size: 20px;
+	text-transform: capitalize;
+
+}
+footer h4{
+	font-size: 22px;
+}
+
+
+/* Media querie */
+@media (max-width: 768px) {
+	
+}
+
